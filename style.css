@@ -1,0 +1,190 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+video{
+    position: fixed;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    overflow-x: scroll;
+}
+.video-overlay{
+    position: fixed;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(49, 112, 143, .55);
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    z-index: 1;
+}
+.logo{
+    margin-top: 10%;
+}
+
+#CBA{
+    color: white;
+}
+
+.lala{
+    background-color: white;
+    position: relative;
+    z-index: 2;
+    margin-top: 100%;
+    width: 100%;
+    height: 200%;
+    padding-top: 1%;
+}
+
+.text-container{
+    background-color: #fdcd3d;
+    position: relative;
+    margin: 3%;
+    padding: 3%;
+    padding-top: 1%;
+    z-index: 2;
+}
+#academic{
+    text-align: center;
+}
+.imagehr{
+    float:left;
+    margin: 2%;
+}
+.imagemarketing{
+    float: right;
+    margin: 2%;
+}
+.imagefinance{
+    float:left;
+    margin: 2%;
+}
+.imageentrep{
+    float: right;
+    margin-top: 2%;
+    height: auto;
+    width: auto;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+
+#hr{
+    background-color: #fdcd3d;
+    padding: 3%;
+}
+
+#mark{
+    padding: 3%;
+}
+#finan{
+    padding: 2%;
+    background-color: #fdcd3d;
+    margin: 0;
+}
+.container li{
+    display: block;
+}
+.container a{
+    position: relative;
+    z-index: 2;
+    margin-right: 20%;
+}
+#Events{
+    margin-top: 3%;
+    margin-left: 2%;
+}
+.text-container{
+    background-color: white;
+}
+.text-events{
+    background-color: #fdcd3d;
+    margin: 2%;
+    padding: 2%;
+}
+    
+footer{
+    background-color: #333;
+    color: #eee;
+    font-family: sans-serif arial;
+}
+
+.BA-Section{
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 1.3;
+}
+
+.BA-Wrapper{
+    max-width: 85%;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.BA-Container{
+    display: flex;
+}
+.BA-ActionBox{
+    width: 270px;
+    height: 270px;
+    background: #9b59b6;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    margin: 2%;
+}
+
+@media screen and (max-width:1070px){
+    .BA-container{
+        flex-direction: column;
+    }
+    .BA-ActionBox{
+        height: 270px;
+        width: 200px;
+    }
+}
+
+.BA-Heading{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 2% 0;
+}
+.BA-text{
+    padding: 4% 0;
+    line-height: 1.4;
+}
+.BA-btn{
+    background: #fff;
+    border: none;
+    padding: 5%;
+    width: 100%;
+    color: #9b59b6;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.container-entrep{
+    background-color: #fdcd3d;
+}
+.container-finance{
+    background-color: white;
+}
+.container-marketing1{
+    background-color: #fdcd3d;
+}
